@@ -72,7 +72,7 @@ public class CollegeDriver implements ActionListener {
 		menuItemExit = new JMenuItem("Exit");
 
 		// Initialize JLabels with a text and JTextFields for Student input values
-		lblStudent_idNum = new JLabel("ID Number");
+		lblStudent_idNum = new JLabel("Student ID");
 		txtStudent_idNum = new JTextField();
 		lblStudent_firstName = new JLabel("First Name");
 		txtStudent_firstName = new JTextField();
@@ -84,7 +84,7 @@ public class CollegeDriver implements ActionListener {
 		txtStudent_gpa = new JTextField();
 
 		// Initialize JLabels with a text and JTextFields for Faculty input values
-		lblFaculty_idNum = new JLabel("ID Number");
+		lblFaculty_idNum = new JLabel("Faculty ID");
 		txtFaculty_idNum = new JTextField();
 		lblFaculty_firstName = new JLabel("First Name");
 		txtFaculty_firstName = new JTextField();
